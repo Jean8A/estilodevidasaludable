@@ -1,0 +1,124 @@
+
+body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        color: #333;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+.encabezado {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/011/113/831/non_2x/aesthetic-abstract-gradient-green-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-for-your-design-vector.jpg);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-right: 20%;
+}
+
+
+.seccion {
+    flex: 1;
+    width: 250px;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.section h2{
+    color: blue;
+}
+aside{
+    width: 200px;
+    background-color: rgb(88, 88, 88);
+    padding: 20px;
+    box-sizing: border-box;
+    top: 41%;
+    bottom: 0;
+    left: 85%;
+    position: absolute;
+    height: 125%;
+    
+}
+aside h2{
+    color: blue;
+    
+}
+aside p{
+    color: rgb(0, 0, 0);
+}
+
+.articulos{
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+}
+.pie{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
+
+.container-art{
+    flex: 1;
+    width: 250px;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
+    
+}
+

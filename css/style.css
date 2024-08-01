@@ -1,0 +1,77 @@
+body
+{
+    background-color: darkred;
+    
+}
+.encabezado{
+    text-align: center;
+    background-color: black;
+    padding: 25px;
+    
+}
+.logo{
+    float: left;
+}
+h1
+{
+    color: aliceblue;
+
+}
+
+.botones{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.botones a{
+    color: darkred;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.botones a:hover{
+    background-color: gray;
+}
+.Imagen{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Imagen img{
+    margin-left: 30px;
+}
+.Imagen p{
+    color: aliceblue;
+}
+.parrafos{
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton1{
+    color: aliceblue;
+    background-color: black;
+    padding: 15px;
+}
+
+.formulario{
+    background-color: darkred;
+    color: white;
+    padding: 55px;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+footer{
+    color: aliceblue;
+    padding: 15px;
+    background-color: black;
+}
